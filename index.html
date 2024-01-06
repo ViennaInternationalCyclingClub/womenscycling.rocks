@@ -18,26 +18,87 @@ body, html {
   background-size: cover;
   font-family: Carlito, sans-serif;
 }
+div.wrp {
+  color: white;
+}
 section {
-  height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 6em;
+}
+h2 {
+  font-size: 4em;
+  margin-bottom: 0.25em;
 }
 a {
   font-size: 2em;
+}
+h2, a {
   font-style: italic;
   font-variant-caps: petite-caps;
   color: white;
 }
+div.logos {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.logos img {
+  vertical-align: middle;
+}
+footer div {
+  text-align: center;
+  width: 100%;
+  margin-left: 35%;
+}
+.imprint pre {
+  text-align: left;
+  margin: 0;
+}
     </style>
   </head>
   <body>
-    <section>
-		<div><h1><img src="/assets/VSVWRT-roundlogo.webp" width="33%" alt="Verge VICC Women's Racing Team"/></h1><br/>
-	    <a href="mailto:vienna@womenscycling.rocks">Contact</a></div>
-    </section>
+    <div class="wrp">
+      <section>
+        <div>
+          <h1>
+            <img src="/assets/VSVWRT-roundlogo.webp" width="20%" alt="Verge VICC Women's Racing Team"/></h1>
+          </div>
+      </section>
+      <section class="sponsors">
+        <div>
+          <h2>Sponsors</h2>
+          <div class="logos">
+            <img src="/assets/sponsors/ortho_schuh.webp" width="200px" height="200px" alt="ORTHO Schuh"/>
+            <img src="/assets/sponsors/nduranzwhite.svg" width="200px" alt="Nduranz"/>
+            <img src="/assets/sponsors/Murelli.png" width="200px" alt="Murelli"/>
+            <img src="/assets/sponsors/ABUS.png" width="200px" alt="Abus"/>
+            <img src="/assets/sponsors/Athletes_Eyewear.webp" width="200px" alt="Athletes Eyewear"/>
+          </div>
+        </div>
+      </section>
+      <section class="contact_socialmedia">
+        <div>
+          <h2>Contact &amp; Social Media</h2>
+          <a href="mailto:vienna@womenscycling.rocks">Mail</a> | 
+          <a href="https://www.instagram.com/vergeviccwomensracing/">Follow Us</a>
+        </div>
+      </section>
+      <section class="imprint">
+        <footer>
+          <h2>Imprint</h2>
+          <div>
+          <pre>
+            Radsportverein Vienna International Cycle Club
+            KLG Pötzleinsd.Höhe, Parz. 23
+            1180 Wien
+            ZVR: 636386428
+          </pre>
+        </div>
+        </footer>
+      </section>
+    </div>
     <div class="bg"/>
   </body>
 </html>
