@@ -1,124 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta property="og:title" content="Bikeleasing VERGE VICC"/>
-    <meta property="og:description" content="Vienna's first Women's Elite Road Racing Team."/>
-    <meta property="og:image" content="https://womenscycling.rocks/assets/BVV-roundlogo.webp"/>
-    <meta property="og:image:type" content="image/webp"/>
-    <meta property="og:image:width" content="451"/>
-    <meta property="og:image:height" content="451"/>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <title>Bikeleasing VERGE VICC - Vienna's first Women's Elite Road Racing Team</title>
-    <style>
-html {
-  background-image: url("/assets/VSVWRT-bg-929x1024.webp");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body {
-  font-family: Carlito, sans-serif;
-}
-div.wrp {
-  color: white;
-}
-section {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 4em;
-}
-h2 {
-  font-size: 3em;
-  margin-bottom: 0.25em;
-  line-height: 0.85em;
-}
-a {
-  font-size: 1.5em;
-}
-h2, a {
-  font-style: italic;
-  font-variant-caps: petite-caps;
-  color: white;
-}
-div.logos {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-.logos img {
-  vertical-align: middle;
-}
-footer {
-  text-align: center;
-}
-.imprint div {
-  text-align: left;
-  font-family: monospace;
-  font-size: 0.7em;
-  display: inline-block;
-}
-</style>
-  </head>
-  <body>
-    <div class="wrp">
-      <section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Bikeleasing VERGE VICC" />
+  <meta property="og:description" content="Vienna's first Women's Elite Road Racing Team." />
+  <meta property="og:image" content="https://womenscycling.rocks/assets/BVV-roundlogo.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="451" />
+  <meta property="og:image:height" content="451" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bikeleasing VERGE VICC - Vienna's first Women's Elite Road Racing Team</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      position: relative;
+      background-color: #0c123f;
+      font-family: Carlito, sans-serif;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      background: url("/assets/top-teal-4000x788.svg") center top / cover no-repeat;
+      z-index: -1;
+    }
+
+    body::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      background: url("/assets/bottom-orange-3995x800.svg") center bottom / cover no-repeat;
+      z-index: -1;
+    }
+
+    div.wrp {
+      color: white;
+      padding: 240px 20px 240px;
+      text-align: center;
+    }
+
+    section {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 4em;
+    }
+
+    h2 {
+      font-size: 3em;
+      margin-bottom: 0.25em;
+      line-height: 0.85em;
+    }
+
+    a {
+      font-size: 1.5em;
+    }
+
+    h2,a {
+      font-style: italic;
+      font-variant-caps: petite-caps;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .imprint div {
+      text-align: left;
+      font-family: monospace;
+      font-size: 0.7em;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrp">
+    <section>
+      <div>
+        <h1>
+          <img src="/assets/bikeleasing_verge_vicc-logos-700x300.svg" width="50%" alt="Bikeleasing VERGE VICC" />
+        </h1>
+      </div>
+    </section>
+    <section class="contact_socialmedia">
+      <div>
+        <h2>Contact &amp; Social Media</h2>
+        <a href="mailto:vienna@womenscycling.rocks">Mail</a> |
+        <a href="https://www.instagram.com/vergeviccwomensracing/">Follow Us</a>
+      </div>
+    </section>
+    <section class="imprint">
+      <footer>
+        <h2>Imprint</h2>
         <div>
-          <h1>
-            <img src="/assets/BVV-roundlogo.webp" width="25%" alt="Verge VICC Women's Racing Team"/></h1>
-          </div>
-<!--
-          <div>
-              <h2>News</h2>
-          </div>
--->
-      </section>
-      <section class="sponsors">
-        <div>
-          <div class="logos">
-            <img src="/assets/sponsors/sponsor_banner.webp" width="100%" alt="Sponsor Banner"/>
-          </div>
+          <a href="https://vicc.racing/">Radsportverein Vienna International Cycle Club</a><br />
+          KLG Pötzleinsd.Höhe, Parz. 23<br />
+          1180 Wien<br />
+          ZVR: 636386428<br />
         </div>
-      </section>
-      <section class="contact_socialmedia">
-        <div>
-          <h2>Contact &amp; Social Media</h2>
-          <a href="mailto:vienna@womenscycling.rocks">Mail</a> | 
-          <a href="https://www.instagram.com/vergeviccwomensracing/">Follow Us</a>
-        </div>
-      </section>
-      <section class="imprint">
-        <footer>
-          <h2>Imprint</h2>
-          <div>
-              Radsportverein Vienna International Cycle Club<br/>
-              KLG Pötzleinsd.Höhe, Parz. 23<br/>
-              1180 Wien<br/>
-              ZVR: 636386428<br/>
-        </div>
-        </footer>
-      </section>
-    </div>
-    <div class="bg"/>
-  </body>
+      </footer>
+    </section>
+  </div>
+</body>
+
 </html>
